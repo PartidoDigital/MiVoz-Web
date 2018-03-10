@@ -1,44 +1,9 @@
-url: http://127.0.0.1:4000
-baseurl: /
-host: 0.0.0.0
-
-# Site settings
 title: MiVOZ
-email: your-email@domain.com
 description: "Ayudando a mejorar colaborativamnte"
-
-
-# Team names, titles and social links
-people:
-- name: Justin Graside
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Leo Giovanetti
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/mivoz
+    url: https://twitter.com/MiVozUy
   - title: facebook
-    url: https://facebook.com/mivoz
-
-# Build settings
+    url: https://facebook.com/MiVozUy
 markdown: kramdown
 permalink: pretty

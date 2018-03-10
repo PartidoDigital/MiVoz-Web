@@ -44,7 +44,7 @@ var RSSParserOptions = {
 
   const CORS_PROXY = "http://cors-anywhere.herokuapp.com/"
 
-  RSSParser.parseURL(CORS_PROXY + 'https://debate.partidodigital.org.uy/c/ideas.rss', RSSParserOptions, function (err, parsed) {
+  RSSParser.parseURL('https://debate.partidodigital.org.uy/c/ideas.rss', RSSParserOptions, function (err, parsed) {
     if (err) {
       console.log(err);
       return;
