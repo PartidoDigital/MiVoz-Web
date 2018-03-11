@@ -118,6 +118,12 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
+.btn-info {
+    color: #ffffff;
+    background-color: #4d8ebc;
+    border-color: #4d8ebc;
+}
+
 .btn-xl {
     padding: 20px 40px;
     border-radius: 3px;
@@ -135,7 +141,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #4d8ebc;
 }
 
 .btn-xl:active,
