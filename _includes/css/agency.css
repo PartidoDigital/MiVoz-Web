@@ -124,12 +124,18 @@ fieldset[disabled] .btn-primary.active {
     border-color: #4d8ebc;
 }
 
+.btn-sm {
+    background-color: #{{ site.data.template.color.primary }};
+    color: #fff;
+    margin-top: 0.5em;
+} 
+
 .btn-xl {
-    padding: 20px 40px;
+    padding: 1em 1.5em;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 18px;
+    font-size: 1.3em;
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
@@ -369,18 +375,17 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 2em;
         font-style: italic;
-        line-height: 40px;
+        line-height: 2em;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 30px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 50px;
+        font-size: 2.5em;
         font-weight: 700;
-        line-height: 50px;
     }
 }
 
