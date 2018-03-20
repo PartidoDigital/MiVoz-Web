@@ -338,19 +338,19 @@ header .intro-text .intro-heading {
 }
 
 #ideas {
-    height: 7em;
+    height: 8em;
 }
 
 #ideas .slick-slide {
-    height: 3em;
+    height: 4em;
     margin: 0;
     font-size: 2em;
 }
 
 #ideas .slick-slide img.autor {
     display: inline-block !important;
-    margin-right: 1em;
-    width: 2em;
+    margin-right: 0.5em;
+    width: 1em;
 }
 
 #ideas .slick-slide a {
@@ -413,7 +413,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0 0;
+    padding: 3em 0 0;
 }
 
 section h2.section-heading {
@@ -423,15 +423,31 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 3em;
+    margin-bottom: 2em;
     text-transform: none;
     font-size: 16px;
     font-weight: 400;
+    line-height: 1.5;
+}
+
+#estructura-idea {
+    border: 1px dashed black;
 }
 
 @media(min-width:768px) {
     section {
-        padding: 120px 0 0
+        padding: 4em 0 0
+    }
+
+    #estructura-idea {
+        border: 1px dashed black; 
+        margin-bottom: 2em;
+    }
+}
+
+@media(max-width:768px) {
+    #estructura-idea {
+        margin: 0 0.5em 2em;
     }
 }
 
@@ -546,7 +562,7 @@ section h3.section-subheading {
     content: "";
     position: absolute;
     top: 0;
-    bottom: 7em;
+    bottom: 9em;
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
