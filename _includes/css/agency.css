@@ -69,6 +69,10 @@ h6 {
     background-color: #222;
 }
 
+.btn {
+    white-space: normal;
+}
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
@@ -183,6 +187,10 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+}
+
+.navbar-brand {
+    padding: 0.7em;
 }
 
 .navbar-default .navbar-brand {
@@ -310,11 +318,10 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
+    margin-bottom: 1.5em;
+    font-size: 1em;
     font-style: italic;
-    line-height: 22px;
+    line-height: 1.2;
 }
 
 header.intro-text .intro-lead-in img.img-responsive {
@@ -325,9 +332,9 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    font-size: 2em;
     font-weight: 700;
-    line-height: 50px;
+    line-height: 1;
 }
 
 #ideas {
@@ -342,12 +349,29 @@ header .intro-text .intro-heading {
 
 #ideas .slick-slide img.autor {
     display: inline-block !important;
-    margin-right: 10px;
-    width: 30px;
+    margin-right: 1em;
+    width: 2em;
 }
 
 #ideas .slick-slide a {
     text-decoration: underline;
+}
+
+@media(max-width:768px) {
+    #ideas {
+        height: 7em;
+    }
+    
+    #ideas .slick-slide {
+        height: 7em;
+        font-size: 1em;
+    }
+    
+    #ideas .slick-slide img.autor {
+        display: block !important;
+        margin: 0 auto;
+        width: 2em;
+    }
 }
 
 .btn-circle {
@@ -373,15 +397,14 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
+        margin-bottom: 1.5em;
         font-size: 2em;
         font-style: italic;
         line-height: 2em;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 30px;
+        margin-bottom: 1.6em;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 2.5em;
@@ -400,11 +423,9 @@ section h2.section-heading {
 }
 
 section h3.section-subheading {
-    margin-bottom: 75px;
+    margin-bottom: 3em;
     text-transform: none;
-    font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -482,7 +503,6 @@ section h3.section-subheading {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
     font-style: italic;
 }
@@ -526,7 +546,7 @@ section h3.section-subheading {
     content: "";
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: 7em;
     left: 40px;
     width: 2px;
     margin-left: -1.5px;
@@ -582,7 +602,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    background-color: #f1f1f1;
 }
 
 .timeline>li .timeline-image h4 {
