@@ -26,6 +26,10 @@ body {
 	color: #f37021;
 	font-family: "Open Sans";
 }
+
+.auth0-lock.auth0-lock .auth0-lock-tabs li.auth0-lock-tabs-current {
+    box-shadow: 0 1px 0 0 #f37021;
+}
   
 /*.tippy-tooltip.pd-theme {
 color: white;
