@@ -1,0 +1,55 @@
+html, body, #lock {
+	height: 100%;
+	margin: 0;
+}
+body {
+	background: url(https://mivoz.uy/img/fondo_collage.png) repeat;
+}
+
+.auth0-lock-center {
+	margin-top: 45%;
+}
+
+.auth0-lock-custom-icon {
+	top: 15px!important;
+}
+
+.auth0-lock-sign-up-terms-agreement input {
+	top: 3px!important;
+}
+
+.auth0-lock-header-bg-blur.auth0-lock-no-grayscale {
+	background: rgba(241,241,241,0.8)!important;
+}
+
+.auth0-lock-header-welcome {
+	color: #f37021;
+	font-family: "Open Sans";
+}
+  
+/*.tippy-tooltip.pd-theme {
+color: white;
+background-color: #F37021;
+font-family: "Open Sans";
+font-size: 10px;
+}
+
+.tippy-popper {
+z-index: 9999999999 !important;
+}
+
+.tippy-popper[x-placement=top] .tippy-tooltip.pd-theme [x-arrow] {
+border-top-color: #F37021;
+}
+
+.tippy-popper[x-placement=bottom] .tippy-tooltip.pd-theme [x-arrow] {
+border-bottom-color: #F37021;
+}
+
+.tippy-popper[x-placement=right] .tippy-tooltip.pd-theme [x-arrow] {
+border-right-color: #F37021;
+}
+
+.tippy-popper[x-placement=left] .tippy-tooltip.pd-theme [x-arrow] {
+border-left-color: #F37021;
+}*/
