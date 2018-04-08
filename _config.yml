@@ -1,9 +1,22 @@
 title: MiVoz
 description: "Ahora tienes voz, ¡úsala!"
+
 social:
   - title: twitter
     url: https://twitter.com/MiVozUy
   - title: facebook
     url: https://facebook.com/MiVozUy
+
+collections:
+  documentos:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: documentos
+    values:
+      layout: pagina
+
 markdown: kramdown
 permalink: pretty

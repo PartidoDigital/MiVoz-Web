@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body id="page-top" class="index pagina">
+    {% include navegacion.html pagina="true" %} 
+    <section style="padding: 0;">
+        <div class="container">
+            <h1>{{page.title}}</h1>
+            {{content}}
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" style="text-align: left;">
+                    <span class="copyright">{{ site.title }} {{ 'now' | date: "%Y" }}</span>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-inline social-buttons" style="position: absolute; right: 0;">
+                        {% for network in site.social %}
+                        <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>

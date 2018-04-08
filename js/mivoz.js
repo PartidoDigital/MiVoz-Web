@@ -26,38 +26,38 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 $('div.modal').on('show.bs.modal', function() {
-	var modal = this;
-	var hash = modal.id;
-	window.location.hash = hash;
-	window.onhashchange = function() {
-		if (!location.hash){
-			$(modal).modal('hide');
-		}
-	}
+    var modal = this;
+    var hash = modal.id;
+    window.location.hash = hash;
+    window.onhashchange = function() {
+        if (!location.hash) {
+            $(modal).modal('hide');
+        }
+    }
 });
 
 var RSSParserOptions = {
     customFields: {
-      item: ['dc:creator', 'category']
+        item: ['dc:creator', 'category']
     }
-  };
+};
 
-  RSSParser.parseURL('https://debate.partidodigital.org.uy/tags/web.rss', RSSParserOptions, function (err, parsed) {
+RSSParser.parseURL('https://digo.mivoz.uy/tags/web.rss', RSSParserOptions, function(err, parsed) {
     if (err) {
-      console.log(err);
-      return;
+        console.log(err);
+        return;
     }
     for (var i = 0; i <= 2; i++) {
-      var e = parsed.feed.entries[i];
-      var title = '"' + e.title + '"';
-      var autor = e["dc:creator"].split(" ");
-      $('#ideas').append("<p>" + "<img class='rounded-circle autor' title='" + autor[1] + "' src='https://debate.partidodigital.org.uy/user_avatar/debate.partidodigital.org.uy/" + autor[0].substr(1) + "/30/1.png'/><a target='_blank' href='" + e.link + "'>" + title + "</a> en " + e.category + "</p>");
+        var e = parsed.feed.entries[i];
+        var title = '"' + e.title + '"';
+        var autor = e["dc:creator"].split(" ");
+        $('#ideas').append("<p>" + "<img class='rounded-circle autor' title='" + autor[1] + "' src='https://digo.mivoz.uy/user_avatar/digo.mivoz.uy/" + autor[0].substr(1) + "/30/1.png'/><a target='_blank' href='" + e.link + "'>" + title + "</a> en " + e.category + "</p>");
     }
     $('#ideas').slick({
-      vertical: true,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      speed: 300,
-      arrows: false
+        vertical: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        speed: 300,
+        arrows: false
     });
-  });
+});

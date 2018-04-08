@@ -1,0 +1,8 @@
+- codigo: no-ury
+  mensaje: "El registro en la plataforma de MiVoz está restringido a Uruguay en este momento." 
+
+- codigo: no-nom-completo
+  mensaje: "A tu usuario le falta un nombre completo."
+
+- codigo: no-correo-verif
+  mensaje: "Por favor verifica tu dirección de correo para validar tu cuenta y poder entrar a MiVoz."

@@ -1,6 +1,7 @@
 html, body, #lock {
 	height: 100%;
 	margin: 0;
+	font-family: "Open Sans";
 }
 body {
 	background: url(https://mivoz.uy/img/fondo_collage.png) repeat;

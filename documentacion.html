@@ -1,0 +1,17 @@
+---
+layout: pagina
+title: Documentación
+---
+
+<p>En esta sección se presentan toda la documentación asociada a MiVoz.</p>
+<ul class="list-group text-xs-center">
+    {% assign sorted = site.documentos | sort: 'date' | reverse %}
+    {% for documento in sorted %}
+    <li class="list-group-item">
+        <a href="{{documento.url | replace: '.html', ''}}">{{ documento.titulo }}</a>
+        <span class="tag tag-default tag-pill pull-xs-right">
+                Actualizado {{ documento.date | date: "%d/%m/%Y" }}
+        </span>
+    </li>
+    {% endfor %}
+</ul>
