@@ -1,2 +1,8 @@
 - codigo: verif-correo
   mensaje: "Muchas gracias por verificar tu correo. Ya puedes ingresar a MiVoz clickeando en el botón \"Entrar\" en <a href='https://digo.mivoz.uy'>https://digo.mivoz.uy</a>."
+
+- codigo: cambio-contr
+  mensaje: "El cambio de contraseña se ha realizado con éxito. Puedes ingresar a MiVoz clickeando en el botón \"Entrar\" en <a href='https://digo.mivoz.uy'>https://digo.mivoz.uy</a>."
+
+- codigo: ip-desbloqueada
+  mensaje: "La dirección IP ha sido desbloqueada. Ya puedes ingresar a MiVoz desde la misma clickeando en el botón \"Entrar\" en <a href='https://digo.mivoz.uy'>https://digo.mivoz.uy</a>."
