@@ -73,6 +73,10 @@ h6 {
     white-space: normal;
 }
 
+.btn:hover {
+    background-color: #{{ site.data.template.color.secondary }};
+}
+
 .btn-primary {
     border-color: #{{ site.data.template.color.primary }};
     text-transform: uppercase;
@@ -124,14 +128,22 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-info {
     color: #ffffff;
-    background-color: #4d8ebc;
-    border-color: #4d8ebc;
+    background-color: #{{ site.data.template.color.secondary }};;
+    border-color: #{{ site.data.template.color.secondary }};;
+}
+
+.btn-info:hover {
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .btn-orange {
     color: #ffffff;
-    background-color: #fd7b24;;
-    border-color: #fd7b24;
+    background-color: #{{ site.data.template.color.primary }};
+    border-color: #{{ site.data.template.color.primary }};
+}
+
+.btn-orange:hover {
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 .btn-sm {
@@ -792,17 +804,6 @@ body {
 
 .pagina .container > h1 {
     color: #{{ site.data.template.color.primary }};
-}
-
-a.btn {
-    border: 2px solid #{{site.data.template.color.primary}};
-    background-color: #{{site.data.template.color.secondary}};
-    color: white;
-}
-
-a.btn:hover {
-    background-color: #{{ site.data.template.color.secondary }};
-    color: #{{site.data.template.color.primary}};
 }
 
 a.btn.disabled {
