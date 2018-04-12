@@ -47,7 +47,7 @@ RSSParser.parseURL('https://digo.mivoz.uy/tags/web.rss', RSSParserOptions, funct
         console.log(err);
         return;
     }
-    for (var i = 0; i <= 2; i++) {
+    for (var i = 0; i < parsed.feed.entries.length; i++) {
         var e = parsed.feed.entries[i];
         var title = '"' + e.title + '"';
         var autor = e["dc:creator"].split(" ");
