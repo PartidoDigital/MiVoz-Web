@@ -128,22 +128,24 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-info {
     color: #ffffff;
-    background-color: #{{ site.data.template.color.secondary }};;
-    border-color: #{{ site.data.template.color.secondary }};;
+    background-color: #{{ site.data.template.color.secondary }} !important;
+    border-color: #{{ site.data.template.color.secondary }} !important;
 }
 
 .btn-info:hover {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }} !important;
+    border-color: #{{ site.data.template.color.primary }} !important;
 }
 
 .btn-orange {
     color: #ffffff;
-    background-color: #{{ site.data.template.color.primary }};
-    border-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }} !important;
+    border-color: #{{ site.data.template.color.primary }} !important;
 }
 
 .btn-orange:hover {
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #{{ site.data.template.color.secondary }} !important;
+    border-color: #{{ site.data.template.color.secondary }} !important;
 }
 
 .btn-sm {
@@ -809,4 +811,27 @@ body {
 a.btn.disabled {
     background-color: #{{ site.data.template.color.secondary }};
     color: white;
+}
+
+.timeline-opposite {
+    float: right;
+    width: 41%;
+}
+
+.timeline-opposite img.arrow {
+    width: 50%;
+    margin-top: 4%;
+}
+
+@media(max-width:767px) {
+    .timeline-opposite {
+        position: absolute;
+        left: -10px;
+    }
+
+    .timeline-opposite img.arrow {
+        transform: rotate(240deg);
+        margin-top: -40px;
+        width: 40px;
+    }
 }
