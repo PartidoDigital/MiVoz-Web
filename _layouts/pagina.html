@@ -15,16 +15,21 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-6" style="text-align: left;">
+                <div class="col-md-8" style="text-align: left;">
                     <span class="copyright">{{ site.title }} {{ 'now' | date: "%Y" }}</span>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <ul class="list-inline social-buttons" style="position: absolute; right: 0;">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}
                     </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="copyright">Mi Voz es una iniciativa del <a target="_blank" href="https://partidodigital.org.uy">Partido Digital</a> para todos los uruguayos.</span>
                 </div>
             </div>
         </div>
