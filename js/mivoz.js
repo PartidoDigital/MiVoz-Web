@@ -13,6 +13,14 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    $.ajax('https://digo.mivoz.uy/categories.json').success(function(res) {
+        $.each(res.category_list.categories, function(index, item){
+            if(item.name != "Sin categoría" && item.name != "Contenido censurado") {
+                $(".lista_categorias").append("<span class='label' style='background-color: #"+item.color+"'>"+item.name+"</span> ");
+            }
+        });
+    });
 });
 
 // Highlight the top nav as scrolling occurs
