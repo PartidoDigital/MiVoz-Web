@@ -16,8 +16,8 @@ $(function() {
 
     $.ajax('https://digo.mivoz.uy/categories.json').success(function(res) {
         $.each(res.category_list.categories, function(index, item){
-            if(item.name != "Sin categoría" && item.name != "Contenido censurado") {
-                $(".lista_categorias").append("<span class='label' style='background-color: #"+item.color+"'>"+item.name+"</span> ");
+            if(item.name != "Sin categoría" && item.name != "Contenido censurado" && item.name != "Feedback") {
+                $("#lista_categorias").append("<span class='label' style='background-color: #"+item.color+"'><a href='https://digo.mivoz.uy/new-topic?category="+item.name.replace(" ", "+")+"&title=Escribe+un+t%C3%ADtulo+aqu%C3%AD+y+escribe+tu+idea+debajo'>"+item.name+"</a></span> ");
             }
         });
     });

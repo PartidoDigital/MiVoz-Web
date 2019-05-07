@@ -835,3 +835,35 @@ a.btn.disabled {
         width: 40px;
     }
 }
+
+#lista_categorias {
+    font-size: 4rem; 
+    line-height: 7rem;
+}
+
+@media(max-width:767px) {
+    #lista_categorias {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    footer .col-md-4 {
+        text-align: center !important;
+    }
+
+    .social-buttons {
+        margin: 1rem 0;
+    }
+
+    span.copyright {
+        line-height: 2rem !important;
+    }
+}
+
+#lista_categorias .label a {
+    color: white;
+}
+
+#lista_categorias .label a:hover {
+    color: white;
+}
