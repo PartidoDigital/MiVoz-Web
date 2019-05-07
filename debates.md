@@ -16,7 +16,7 @@ date: 2017-09-23
   <div class="col-md-2"></div>
   <div class="col-md-8 text-center">
     <h5>En cada debate habrá una silla representando la participación de la ciudadanía, tu participación. Usala, tu voz importa, ¡proponé tu idea para cada tema y participá del debate!</h5>
-    <h4>Entrá al debate de hoy aquí (utiliza <a href="https://zoom.us/">zoom.us</a>): <a href="https://zoom.us/j/127217701">Click aquí para entrar</a> </h4>
+    <h4>Entrá al debate de hoy (utiliza <a href="https://zoom.us/">zoom.us</a>): <a href="https://zoom.us/j/127217701">Click aquí para entrar</a> </h4>
   </div>
   <div class="col-md-2"></div>
 </div>
