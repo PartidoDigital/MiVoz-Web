@@ -25,7 +25,7 @@ date: 2017-09-23
   <div class="col-md-2"></div>
   <div class="col-md-8 text-center">
     <h5>Participá del debate de hoy (streaming por Facebook Live):</h5>
-    <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMiVozUy%2Fvideos%2F285316322378840%2F&show_text=0&width=600" width="600" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+    <iframe  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMiVozUy%2Fvideos%2F303807503855505%2F&show_text=0&width=560" width="600" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
   </div>
   <div class="col-md-2"></div>
 </div>
