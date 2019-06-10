@@ -14,7 +14,7 @@ Por favor ponte en [contacto](mailto:contacto@mivoz.uy) con nosotros si tienes a
 <script>
     var exitos = {
     {% for exito in site.data.exitos %} 
-        "{{exito.codigo}}": "{{exito.mensaje | escape}}"{% unless forloop.last %},{% endunless %}
+        "{{exito.codigo}}": "{{exito.mensaje | replace: '"', "&quot;"}}"{% unless forloop.last %},{% endunless %}
     {% endfor %}
     }
     function getParameterByName(name, url) {
