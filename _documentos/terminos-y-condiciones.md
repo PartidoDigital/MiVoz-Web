@@ -43,8 +43,8 @@ Usted manifiesta y garantiza que:
  2. su uso de la Plataforma no viole o se apropie indebidamente de los derechos de propiedad intelectual de terceros.
 
 ## Contacto {#contacto}
-Para cualquier sugerencia o propuesta de colaboración, las personas interesadas podrán comunicarse al correo electrónico [contacto@mivoz.uy]{:target="_blank"}.
+Para cualquier sugerencia o propuesta de colaboración, las personas interesadas podrán comunicarse al correo electrónico [mivoz@partidodigital.org.uy]{:target="_blank"}.
 
 [https://digo.mivoz.uy/c/contenido-censurado]: https://digo.mivoz.uy/c/contenido-censurado
-[contacto@mivoz.uy]: mailto:contacto@mivoz.uy
+[mivoz@partidodigital.org.uy]: mailto:mivoz@partidodigital.org.uy
 [https://mivoz.uy/documentacion]: https://mivoz.uy/documentacion

@@ -13,7 +13,7 @@ Al registrarse en la Plataforma, se le solicita que ingrese su nombre y direcci�
 Tanto cuando se registran como cuando se publica contenido en la Plataforma, registramos la dirección IP de la que se originó el mensaje. También podemos conservar los registros del servidor que incluyen la dirección IP de cada solicitud a nuestro servidor.
 
 ## Ejercicio de los derechos
-El Usuario podrá en todo momento ejercer los derechos de acceso, rectificación, actualización, inclusión y supresión, otorgados por la Ley Nº 18.331, sus modificativas y concordantes, ante MiVoz a través del correo electróico [contacto@mivoz.uy]{:target="_blank"}.
+El Usuario podrá en todo momento ejercer los derechos de acceso, rectificación, actualización, inclusión y supresión, otorgados por la Ley Nº 18.331, sus modificativas y concordantes, ante MiVoz a través del correo electróico [mivoz@partidodigital.org.uy]{:target="_blank"}.
 
 ## ¿Para qué utilizamos su información?
 Cualquiera de la información que recopilamos de usted puede utilizarse de una de las siguientes maneras:

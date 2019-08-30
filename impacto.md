@@ -15,4 +15,4 @@ Aquí se encuentran las organizaciones que se comprometieron a empoderar las ide
 </div>
 
 ## Sumate
-Suma tu organización política y cuéntanos cómo van a empoderar las ideas de MiVoz en [contacto@mivoz.uy](mailto:contacto@mivoz.uy)
+Suma tu organización política y cuéntanos cómo van a empoderar las ideas de MiVoz en [mivoz@partidodigital.org.uy](mailto:mivoz@partidodigital.org.uy)

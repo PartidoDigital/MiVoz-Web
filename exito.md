@@ -9,7 +9,7 @@ title: ¡Éxito!
     <strong id="mensaje"></strong>
 </div>
 
-Por favor ponte en [contacto](mailto:contacto@mivoz.uy) con nosotros si tienes alguna consulta.
+Por favor ponte en [contacto](mailto:mivoz@partidodigital.org.uy) con nosotros si tienes alguna consulta.
 
 <script>
     var exitos = {

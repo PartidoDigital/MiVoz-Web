@@ -9,7 +9,7 @@ title: Error
     <strong id="mensaje"></strong>
 </div>
 
-Por favor ponte en [contacto](mailto:contacto@mivoz.uy) con nosotros pasandonos detalles de lo sucedido e intentaremos ayudarte.
+Por favor ponte en [contacto](mailto:mivoz@partidodigital.org.uy) con nosotros pasandonos detalles de lo sucedido e intentaremos ayudarte.
 
 <script>
     var errores = {
