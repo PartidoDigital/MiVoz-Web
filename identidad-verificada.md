@@ -3,12 +3,12 @@ layout: pagina
 title: Identidad verificada
 ---
 
-Es necesario que verifiques tu usuario para poder votar propuestas en Mi Voz:  [https://digo.mivoz.uy/c/votacion]().
+Es necesario que verifiques tu usuario para poder votar propuestas en MiVoz.
 
 Aquellas propuestas que superen los 50 votos irán al Programa de Gobierno del Partido Digital.
 
 Para tener tu usuario verificado debes seguir estos pasos:
- - Crear un usuario en Mi Voz, si todavía no lo tenés hace acá: [https://digo.mivoz.uy/login]()
+ - Crear un usuario en MiVoz, si todavía no lo tenés hace acá: [https://digo.mivoz.uy/login]()
  - Verificar usuario con tu credencial.
  - Enviar foto de adelante de tu credencial al 094 469 501 con el email de tu usuario creado en el paso anterior.
  - Nuestro equipo revisará que los datos de tu usuario y tu credencial coincidan. Es importante que tu usuario te lo hayas creado con todos tus nombres y apellidos para poder verificarlos en este paso con tu credencial.
