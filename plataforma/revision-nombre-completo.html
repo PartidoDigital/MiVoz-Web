@@ -67,7 +67,6 @@
 																		</span>
 																		<input type="text" name="full_name" class="auth0-lock-input"
 																			placeholder="Nombre completo" autocomplete="off" id="full_name">
-																		<input type="hidden" name="state" id="form_state" value="">
 																	</div>
 																</div>
 															</div>
@@ -157,10 +156,8 @@
 			avatar.setAttribute("src", userInfo.avatar);
 			var avatar_blur = document.getElementById("user_avatar_blur");
 			avatar_blur.setAttribute("style", "background-image: url(" + userInfo.avatar + ");");
-			var stateField = document.getElementById("form_state");
-			stateField.setAttribute("value", query.state);
 			var form = document.getElementById("add_full_name");
-			form.setAttribute("action", "https://wt-hello-leog_me-0.sandbox.auth0-extend.com/datos-faltantes/nombre-completo?token=" + query.token);
+			form.setAttribute("action", "https://wt-hello-leog_me-0.sandbox.auth0-extend.com/datos-faltantes/nombre-completo?token=" + query.token + "&state=" + query.state);
 		} catch(e) {
 			document.getElementById("form_container").remove();
 			document.getElementById("submit_form").remove();
