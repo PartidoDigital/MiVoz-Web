@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+
+<head>
+	<title>Un detalle - MiVoz</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="icon" type="image/png" href="/img/logos/LogoMiVoz-chico.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/img/logos/LogoMiVoz-chico.png" sizes="32x32">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i">
+    <link rel="stylesheet" href="https://mivoz.uy/css/auth0.css">
+    <link rel="stylesheet" href="https://recursos.partidodigital.org.uy/assets/css/lock.css">
+	<style>
+		.tippy-tooltip {
+			font-family: 'Arial';
+			font-size: 0.8em;
+		}
+		.regla {
+			color: lime;
+			display: block;
+			text-align: left;
+		}
+		.notok {
+			color: #f37021;
+		}
+	</style>
+	<script src="https://unpkg.com/tippy.js@2.0.9/dist/tippy.all.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.19.0/URI.min.js"></script>
+	<script src="https://cdn.rawgit.com/auth0/jwt-decode/2908c42a/build/jwt-decode.min.js"></script>
+</head>
+
+<body>
+    <div id="lock">
+        <div data-reactroot="" class="auth0-lock auth0-lock-opened-in-frame auth0-lock-with-tabs" style="z-index: 9998;">
+            <div class="auth0-lock-center">
+                <form class="auth0-lock-widget" id="add_full_name" method="POST">
+                    <img class="auth0-lock-header-avatar" id="user_avatar" src="#" alt="¡Hola!">
+                    <div class="auth0-lock-widget-container">
+                        <div class="auth0-lock-cred-pane auth0-lock-quiet" style="height: inherit;">
+                            <div class="auth0-lock-header">
+                                <div class="auth0-lock-header-bg auth0-lock-blur-support">
+                                    <div class="auth0-lock-header-bg-blur auth0-lock-no-grayscale" id="user_avatar_blur"></div>
+                                    <div class="auth0-lock-header-bg-solid" style="background-color: rgb(243, 112, 33);"></div>
+                                </div>
+                                <div class="auth0-lock-header-welcome">
+                                    <div class="auth0-lock-firstname">Un detalle...</div>
+                                </div>
+                            </div>
+                            <span></span>
+                            <div style="position: relative;">
+								<div style="visibility: inherit;">
+									<div class="auth0-lock-view-content">
+										<div style="position: relative;">
+											<div class="auth0-lock-body-content">
+												<div class="auth0-lock-content">
+													<p style="margin-top:0; text-align: center;" id="mensaje">
+														Necesitamos tu nombre completo para ayudar a identificarte.
+													</p>
+													<div class="auth0-lock-form" id="form_container">
+														<div>
+															<div>
+																<div class="auth0-lock-input-block auth0-lock-input-email">
+																	<div class="auth0-lock-input-wrap auth0-lock-input-wrap-with-icon">
+																		<span>
+																				<svg focusable="false" width="13px" height="14px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="auth0-lock-icon auth0-lock-icon-box"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-11.000000, -1471.000000)" fill="#888888"><path d="M25.552,1486.998 L11.449,1486.998 C10.667,1485.799 10.984,1483.399 11.766,1482.6 C12.139,1482.219 14.931,1481.5 16.267,1481.172 C14.856,1480.076 13.995,1478.042 13.995,1476.103 C13.995,1473.284 14.813,1470.999 18.498,1470.999 C22.182,1470.999 23,1473.284 23,1476.103 C23,1478.037 22.145,1480.065 20.74,1481.163 C22.046,1481.489 24.88,1482.228 25.241,1482.601 C26.019,1483.399 26.328,1485.799 25.552,1486.998 L25.552,1486.998 Z M24.6,1483.443 C24.087,1483.169 21.881,1482.548 20,1482.097 L20,1480.513 C21.254,1479.659 21.997,1477.806 21.997,1476.12 C21.997,1473.841 21.414,1471.993 18.499,1471.993 C15.583,1471.993 15,1473.841 15,1476.12 C15,1477.807 15.744,1479.662 17,1480.515 L17,1482.112 C15.109,1482.556 12.914,1483.166 12.409,1483.442 C12.082,1483.854 11.797,1485.173 12,1486 L25,1486 C25.201,1485.174 24.922,1483.858 24.6,1483.443 L24.6,1483.443 Z"></path></g></g></svg>
+																		</span>
+																		<input type="text" name="full_name" class="auth0-lock-input"
+																			placeholder="Nombre completo" autocomplete="off" id="full_name">
+																		<input type="hidden" name="state" id="form_state" value="">
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<p class="auth0-lock-alternative" style="text-align: center; margin-bottom: 0;" id="mas_info">
+														<a href="https://mivoz.uy/plataforma/#revision-nombre-completo" target="_blank" style="color: grey; font-size: 0.8em;">Más información</a>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+                            </div>
+                            <button class="auth0-lock-submit" type="submit" style="background-color: rgb(243, 112, 33);" id="submit_form" disabled>
+                                <div class="auth0-loading-container">
+                                    <div class="auth0-loading"></div>
+                                </div>
+                                <span class="auth0-label-submit">
+                                    Guardar y continuar
+                                    <span>
+                                        <svg class="icon-text" width="8px" height="12px" viewBox="0 0 8 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g transform="translate(-148.000000, -32.000000)" fill="#FFFFFF">
+                                                    <polygon id="Shape" points="148 33.4 149.4 32 155.4 38 149.4 44 148 42.6 152.6 38"></polygon>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </span>
+                            </button>
+                            <span></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+	<div id="reglas_tmpl">
+		<span id="largo" class="regla notok">Largo total mayor a 10</span>
+		<span id="completo" class="regla notok">Incluye un espacio entre nombre y apellido</span>
+		<span id="noabrv" class="regla notok">Sin abreviaciones</span>
+	</div>
+    <script>
+		var tippyIn = false;
+		var submitButton = document.getElementById("submit_form");
+		var fullNameField = document.getElementById("full_name");
+		tippy(fullNameField, {
+			html: document.querySelector('#reglas_tmpl'),
+			placement: 'right',
+			arrow: true,
+			hideOnClick: false,
+			trigger: 'focus',
+			popperOptions: {
+				modifiers: {
+					flip: {
+						behavior: ['right', 'top']
+					}
+				}
+			}
+		});
+		function checkRules(val, rules) {
+			document.getElementById("largo").className = rules.largo ? "regla" : "regla notok"; 
+			document.getElementById("completo").className = rules.completo ? "regla" : "regla notok"; 
+			document.getElementById("noabrv").className = rules.noabrv ? "regla" : "regla notok"; 
+		}
+		fullNameField.addEventListener('keyup', function(event) {
+			var val = this.value.trim(); 
+			var rules = {
+				largo: val.length+1 > 10,
+				completo: val.trim().indexOf(" ") > 0,
+				noabrv: val.split(" ")[0].length > 2 && (val.split(" ")[1] !== undefined && val.split(" ")[1].length > 2)
+			};
+			if(!rules.largo || !rules.completo || !rules.noabrv) {
+				fullNameField._tippy.show();
+				checkRules(val, rules);
+				submitButton.disabled = true;
+			} else {
+				fullNameField._tippy.hide();
+				submitButton.disabled = false;
+			}
+		});
+		var query = URI.parseQuery(document.location.search);
+		try {
+			var userInfo = jwt_decode(query.token);
+			var avatar = document.getElementById("user_avatar");
+			avatar.setAttribute("src", userInfo.avatar);
+			var avatar_blur = document.getElementById("user_avatar_blur");
+			avatar_blur.setAttribute("style", "background-image: url(" + userInfo.avatar + ");");
+			var stateField = document.getElementById("form_state");
+			stateField.setAttribute("value", query.state);
+			var form = document.getElementById("add_full_name");
+			form.setAttribute("action", "https://wt-hello-leog_me-0.sandbox.auth0-extend.com/datos-faltantes/nombre-completo?token=" + query.token);
+		} catch(e) {
+			document.getElementById("form_container").remove();
+			document.getElementById("submit_form").remove();
+			document.getElementById("mas_info").remove();
+			var msj = document.getElementById("mensaje");
+			msj.innerHTML = "No es posible utilizar esta página sin un contexto. Escribinos a <a href='mailto:mivoz@partidodigital.org.uy'>mivoz@partidodigital.org.uy</a> <br>si tienes alguna duda.";
+			msj.setAttribute("style", "margin: 0; text-align: center;");
+			var avatar = document.getElementById("user_avatar");
+			avatar.setAttribute("src", "https://recursos.partidodigital.org.uy/assets/img/halt.png");
+		}
+    </script>
+</body>
+
+</html>
