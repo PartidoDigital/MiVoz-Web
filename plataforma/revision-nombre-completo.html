@@ -138,7 +138,7 @@
 			var rules = {
 				largo: val.length+1 > 10,
 				completo: val.trim().indexOf(" ") > 0,
-				noabrv: val.split(" ")[0].length > 2 && (val.split(" ")[1] !== undefined && val.split(" ")[1].length > 2)
+				noabrv: val.split(" ")[0].length > 2 && (val.split(" ")[1] !== undefined && val.split(" ")[1].length > 1)
 			};
 			if(!rules.largo || !rules.completo || !rules.noabrv) {
 				fullNameField._tippy.show();
