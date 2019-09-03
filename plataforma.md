@@ -19,4 +19,9 @@ La herramienta de voto es la vía por la cual las ideas de MiVoz llegan a ser vo
 
 El resultado de la votación de cada propuesta es la que se tendrá en cuenta para luego publicar las ideas que la comunidad acepta a que se lleve a cabo la entidad correspondiente.
 
+Nota: Temporalmente, dada la expresa necesidad de contar con el mecanismo de votación para la votación de propuestas prevista para formar el Programa de Gobierno del Partido Digital, se utilizará la herramienta de discusión con las garantías requeridas ya mencionadas (proceso descripto [aquí](/identidad-verificada)) para proveer la funcionalidad de votación. 
+
+#### Revisón de nombre completo {#revision-nombre-completo
+Para garantizar una correcta identificación de las personas prevista para asegurar una votación confiable y transparente, se insta a que todas las personas que vayan a utilizar la herramienta de votación a que completen su nombre completo según aparece en su Credencial Cívica de manera de poder verificar su cuenta según lo descripto en el proceso de verificación de identidad [aquí](/identidad-verificada).
+
 [Disponible para la fase de votación](){:class="btn disabled"}
