@@ -295,7 +295,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default .navbar-brand {
         display: none;
-        padding: 14.5px 15px 20.5px;
+        padding: 2px 15px 20.5px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -307,7 +307,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background: #fe8c00;
+        background: -webkit-linear-gradient(to right,#fe8c00,#f83600);
+        background: linear-gradient(to right,#fe8c00,#f83600);
+        border-bottom: 1px solid rgba(0,0,0,.3);
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
