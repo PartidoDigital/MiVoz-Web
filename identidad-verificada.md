@@ -14,5 +14,5 @@ Para tener tu usuario verificado debes seguir estos pasos:
  - Una vez que recibas el Ok de nuestro equipo por WhatsApp desde el mismo número, tu usuario quedará verificado y podrás borrar los mensajes con tu credencial e información personal. De esa manera esto quedará borrado de ambos dispositivos.
  - Tu usuario quedará habilitado para votar las propuestas disponibles en [https://digo.mivoz.uy/c/votacion](https://digo.mivoz.uy/c/votacion). ¡A votar!
 
-Información importante:
+**Información importante:**
 El tráfico de datos en WhatsApp es seguro y encriptado, por ese escogimos este canal para verificar tu usuario con la credencial. No nos quedamos con la foto de tu credencial, tu la borras enseguida que te avisemos que verificamos tu usuario. Solo se destinará para verificar tu usuario el número especificado arriba, no envíes información personal si te contactan desde otro número.
