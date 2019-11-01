@@ -3,3 +3,43 @@
 
 {% include css/bootstrap.min.css %}
 {% include css/agency.css %}
+
+svg#mapa-uy {
+    display: block;
+    margin: 0 auto;
+}
+
+svg#mapa-uy path {
+    cursor: pointer;
+    outline: none;
+}
+
+.enabled {
+    fill: #fe8c00;
+}
+
+.enabled:hover {
+    fill: #f83600;
+    transition: 0.3s;
+}
+
+.scaling-svg-container {
+    position: relative; 
+    height: 0; 
+    width: 100%; 
+    padding: 0;
+    padding-bottom: 100%;
+}
+.scaling-svg {
+    position: absolute; 
+    height: 100%; 
+    width: 100%; 
+    left: 0; 
+    top: 0;
+}
+
+@media(min-width:768px) {
+    .scaling-svg-container {
+        padding-bottom: 60%;
+    }
+}

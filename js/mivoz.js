@@ -21,6 +21,40 @@ $(function() {
             }
         });
     });
+
+    $.ajax('https://digo.mivoz.uy/tags.json').success(function(res) {
+        $.each(res.extras.tag_groups, function(i, tag_group){
+            if(tag_group.id === 4) {
+                $.each(tag_group.tags, function(j, tag){
+                    var nameTag = $("svg#mapa-uy path name:contains('"+tag.text.replace(/-/g, " ")+"')");
+                    var path = nameTag.parents("path");
+                    nameTag.attr("data-count", tag.count);
+                    nameTag.attr("data-taglink", "https://digo.mivoz.uy/tags/"+tag.text);
+                    if(tag.count != 0) {
+                        path[0].classList.add("enabled");
+                    }
+                });
+            }
+        });
+        tippy('svg#mapa-uy path', {
+            content: function(reference) {
+                var name = $(reference).find('desc name');
+                var count = name.data("count");
+                var out = "";
+                out += name[0].innerText + " (" + (count === 0 ? "no hay propuestas aún)" : (count === 1 ? count + " propuesta)" : count + " propuestas)"));
+                out += "<br><i class='small'>" + (count > 0 ? (count === 1 ? "Click para ver propuesta</i>" : "Click para ver propuestas</i>") : "Click para agregar propuesta</i>");
+                return out;
+            },
+            //followCursor: true,
+            theme: 'light',
+            followCursor: true,
+            placement: "bottom",
+            touch: "hold"
+        });
+        $("svg#mapa-uy path").click(function() {
+            window.open($(this).find("desc name").data("taglink"));
+        });
+    });
 });
 
 // Highlight the top nav as scrolling occurs
