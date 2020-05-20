@@ -15,4 +15,4 @@ Para tener tu usuario verificado debes seguir estos pasos:
  - Tu usuario quedará habilitado para votar las propuestas disponibles en [https://digo.mivoz.uy/c/votacion](https://digo.mivoz.uy/c/votacion). ¡A votar!
 
 **Información importante:**
-El tráfico de datos en WhatsApp es seguro y encriptado, por ese escogimos este canal para verificar tu usuario con la credencial. No nos quedamos con la foto de tu credencial, tu la borras enseguida que te avisemos que verificamos tu usuario. Solo se destinará para verificar tu usuario el número especificado arriba, no envíes información personal si te contactan desde otro número.
+El tráfico de datos en WhatsApp es seguro y encriptado, por eso escogimos este canal para verificar tu usuario con la credencial. No nos quedamos con la foto de tu credencial, tu la borras enseguida que te avisemos que verificamos tu usuario. Solo se destinará para verificar tu usuario el número especificado arriba, no envíes información personal si te contactan desde otro número.
