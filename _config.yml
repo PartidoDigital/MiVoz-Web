@@ -1,5 +1,6 @@
 title: MiVoz
 description: "Ahora tienes voz, ¡úsala!"
+include: [".well-known"]
 
 social:
   - title: twitter
