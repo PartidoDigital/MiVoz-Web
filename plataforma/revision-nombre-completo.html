@@ -115,8 +115,9 @@
 		var tippyIn = false;
 		var submitButton = document.getElementById("submit_form");
 		var fullNameField = document.getElementById("full_name");
+	    	var template = document.querySelector('#reglas_tmpl');
 		tippy(fullNameField, {
-			html: document.querySelector('#reglas_tmpl'),
+			content: template.innerHTML,
 			placement: 'right',
 			arrow: true,
 			hideOnClick: false,
